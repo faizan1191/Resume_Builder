@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Personal Info */
+
+#personal_info {
+  background-color: cyan;
+}
+
+.profile_img {
+  border-radius: 50%;
+  width: 10rem;
+  margin: auto;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Professional Info */
+#professional_info {
+  background-color: lightcyan;
+  padding-bottom: 20px;
+}
+
+#header {
+  color: white;
+  background-color: black;
+}
+
+#name {
+  padding-top: 5px;
+  display: block;
+  line-height: 2.5rem;
+  font-size: 2rem;
+}
+
+#title {
+  display: block;
+  color: lightcoral;
+  margin: 0;
+  padding: 0;
+}
+
+#objective {
+  text-align: center;
+  padding: 2%;
+}
+
+#content {
+  background-color: lightcyan;
+}
+
+
+/* Utility Classes */
+
+.blocks {
+  display: inline-block;
+  color: white;
+  border-radius: 10%;
+  background-color: black;
+  padding: 3px 7px;
+  margin-top: 5px;
+}
+
+.icons {
+  font-size: 1.2rem;
+}
+
+.links > a {
+  text-decoration: none;
+  color: black;
+}
+
+.field_blocks {
+  padding-left: 2%;
+}
+
+.fields {
+  display: block;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.duration {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+hr:not([size]) {
+  height: 3px;
+}
+hr {
+  border: none;
+  color: black; /* old IE */
+  background-color: black; /* Modern Browsers */
+  opacity: 1;
+}
