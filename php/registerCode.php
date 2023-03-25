@@ -27,5 +27,5 @@ if($result){
     $_SESSION['user_name'] = $result['user_name'];
     
     //Redirecting to resume form page
-    Redirect('http://localhost/Resume_Builder/php/myAccount.php', false);
+    Redirect('myAccount.php', false);
 }

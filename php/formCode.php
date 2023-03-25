@@ -226,7 +226,7 @@ if ($conn->query($sql)) {
         }
     }
     //Redirecting to resume template page
-    Redirect('http://localhost/Resume_Builder/php/resumeTemplate.php?id=' . $lastId, false);
+    Redirect('resumeTemplate.php?id=' . $lastId, false);
 } else {
     die('Error' . $conn->error);
 }

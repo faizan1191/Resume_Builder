@@ -9,4 +9,4 @@ session_unset();
 session_destroy();
 
 //Redirecting to login page
-Redirect('http://localhost/Resume_Builder/html/login.html', false);
+Redirect('../html/login.html', false);
